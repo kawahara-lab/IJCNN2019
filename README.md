@@ -16,11 +16,9 @@ https://archive.ics.uci.edu/ml/datasets/daily+and+sports+activities
 After downloading data, run make_data.m in downloaded folder and put outputs in ./data.
 
 ## Library
-The folder "libsvm-3.23" contains LIBSVM, well-known SVM library.
+We use well-known SVM library LIBSVM.
 
-We didn't modify sorce codes in ZIP file which can be downloaded on the original web page.
-
-The original web page is below.
+Download it from web page below and replace ./libsvm-3.23 with downloaded one.
 
 https://www.csie.ntu.edu.tw/~cjlin/libsvm/.
 
