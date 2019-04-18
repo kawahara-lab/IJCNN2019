@@ -34,7 +34,7 @@ tSNE_DMD.m, tSNE_SDMD.m and tSNE_PCA.m perform visualization of the feature vect
 
 
 ## Example
-Result of svm_SDMD.m is below
+Result of svm_SDMD.m is below.
 
 ![example1](./examples/fig2.png)
 
@@ -44,7 +44,7 @@ Result of tSNE_SDMD.m is below.
 
 
 ## Licence
-This sorce code(except the folder "libsvm-3.23", which is not our developing code. Follow the licence of the original.) is released under the MIT Licence, see LICENSE.
+This sorce code is released under the MIT Licence, see LICENSE.
 
 
 ## References
