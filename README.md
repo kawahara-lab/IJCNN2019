@@ -5,9 +5,9 @@ Principal Component Analisys as PCA, t-distributed Stochastic Neighbor Embedding
 
 
 ## Data
-Data in the folder "data" is UCI Daily and Sports Activities Data Set.
+Data used in the paper is UCI Daily and Sports Activities Data Set.
 
-The data contains 8 person's 19 activities.
+The data set contains 8 person's 19 activities.
 
 For more details, see the original web page below.
 
