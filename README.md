@@ -1,4 +1,4 @@
-The M implementation of our algorithm presented in the IJCNN'19 paper titled "Learning with Coherence Patterns in Multivariate Time-series Data via Dynamic Mode Decomposition".
+The Matlab implementation of our algorithm presented in the IJCNN'19 paper titled "Learning with Coherence Patterns in Multivariate Time-series Data via Dynamic Mode Decomposition".
 
 We abbreviate Support Vector Machine as SVM, Dynamic Mode Decomposition as DMD, 
 Principal Component Analisys as PCA, t-distributed Stochastic Neighbor Embedding as tSNE, respectively.
