@@ -13,7 +13,7 @@ For more details, see the original web page below.
 
 https://archive.ics.uci.edu/ml/datasets/daily+and+sports+activities
 
-After downloading data, run make_data.m in the downloaded folder and put the outputs into ./data.
+After downloading the data, run make_data.m in the downloaded folder and put the outputs into ./data.
 
 ## Library
 We use the well-known SVM library LIBSVM.
