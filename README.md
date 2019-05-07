@@ -1,7 +1,7 @@
-MATLAB implementation of an IJCNN2019 paper titled "Learning with Coherence Patterns in Multivariate Time-series Data via Dynamic Mode Decomposition".
+The MATLAB implementation of our algorithm presented in the IJCNN'19 paper titled "Learning with Coherence Patterns in Multivariate Time-series Data via Dynamic Mode Decomposition".
 
-We write below Support Vector Machine as SVM, Dynamic Mode Decomposition as DMD, 
-Principal Component Analisys as PCA, t-distributed Stochastic Neighbor Embedding as tSNE.
+We abbreviate Support Vector Machine as SVM, Dynamic Mode Decomposition as DMD, 
+Principal Component Analisys as PCA, t-distributed Stochastic Neighbor Embedding as tSNE, respectively.
 
 
 ## Data
@@ -13,12 +13,12 @@ For more details, see the original web page below.
 
 https://archive.ics.uci.edu/ml/datasets/daily+and+sports+activities
 
-After downloading data, run make_data.m in downloaded folder and put outputs in ./data.
+After downloading data, run make_data.m in the downloaded folder and put the outputs into ./data.
 
 ## Library
-We use well-known SVM library LIBSVM.
+We use the well-known SVM library LIBSVM.
 
-Download it from web page below and replace ./libsvm-3.23 with downloaded one.
+Download it from the web page below and replace ./libsvm-3.23 with the downloaded one.
 
 https://www.csie.ntu.edu.tw/~cjlin/libsvm/.
 
@@ -26,9 +26,9 @@ https://www.csie.ntu.edu.tw/~cjlin/libsvm/.
 ## Description
 svm_DMD.m, svm_SDMD.m and svm_PCA.m perform classification via SVM.
 
-The input of SVM is distance matrix of data.
+The input of SVM is the distance matrix of data.
 
-The distance matrices in those files are computed by DMD modes, Supervised PCA + DMD modes, PCA modes respectively.
+The distance matrices in those files are computed by DMD modes, Supervised PCA + DMD modes, and PCA modes, respectively.
 
 tSNE_DMD.m, tSNE_SDMD.m and tSNE_PCA.m perform visualization of the feature vectors above via tSNE.
 
