@@ -49,7 +49,7 @@ This sorce code is released under the MIT Licence, see LICENSE.
 
 ## References
 T.Bito, M.Hiraoka, Y.Kawahara, "Learning with Coherence Patterns in Multivariate Time-series Data via Dynamic Mode Decomposition," 
-in *Proc.* of The International Joint Conference on Neural Networks 2019(IJCNN2019), 2019.
+in *Proc. of The International Joint Conference on Neural Networks 2019(IJCNN2019),* 2019.
 
 https://ieeexplore.ieee.org/document/8852177
 
