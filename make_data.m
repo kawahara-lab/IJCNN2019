@@ -25,6 +25,8 @@ labels(1,60*18+1:60*19) = 'playing basketball';
 
 %% load files
 
+label = {};
+motiondata = {};
 for i = 1:8
     person_number = strcat('p', num2str(i));
     tmp = {};
@@ -45,10 +47,12 @@ for i = 1:8
             X{k} = (dlmread(files(n).name,',')).';
         end
         tmp = horzcat(tmp,X);
+        motiondata = horzcat(motiondata,X);
         cd ../..
     end
     eval(['motiondata' num2str(i) '= tmp;']);
     eval(['labels' num2str(i) '= labels;']);
+    label = horzcat(label,labels);
 end
 
 save('DSADS.mat', 'motiondata1', 'labels')
