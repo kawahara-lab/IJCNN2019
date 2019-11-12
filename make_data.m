@@ -44,7 +44,7 @@ for i = 1:8
         X = cell(1,length(files));
         
         for k = 1:length(files)
-            X{k} = (dlmread(files(n).name,',')).';
+            X{k} = (dlmread(files().name,',')).';
         end
         tmp = horzcat(tmp,X);
         motiondata = horzcat(motiondata,X);
